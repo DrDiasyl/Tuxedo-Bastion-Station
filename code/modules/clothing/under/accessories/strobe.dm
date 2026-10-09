@@ -1,12 +1,12 @@
 /obj/item/clothing/accessory/strobe
 	name = "strobe light"
-	desc = "A clip-on strobe light that is attached to the shoulder, colloquially called a 'guardian angel' and is used to look like a utter dork."
+	desc = "A clip-on strobe light that is attached to the shoulder, colloquially called a 'guardian angel' and is used to identify the nearest rookie."
 	icon_state = "strobe"
 	base_icon_state = "strobe"
 	light_system = OVERLAY_LIGHT
 	light_outer_range = 2
 	light_power = 1
-	light_color = LIGHT_COLOR_BLUE
+	light_color = LIGHT_COLOR_DARK_BLUE
 	light_on = FALSE
 	actions_types = list(/datum/action/item_action/toggle_strobe_light)
 	var/active = FALSE

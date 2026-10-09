@@ -34,7 +34,6 @@
 			"icon" = "mask",
 			"products" = list(
 				/obj/item/clothing/mask/balaclava = 6,
-				/obj/item/clothing/mask/gas/sechailer = 6,
 			),
 		),
 		list(
