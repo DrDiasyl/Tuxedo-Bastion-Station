@@ -167,6 +167,17 @@
 	inhand_icon_state = "armor"
 	dog_fashion = null
 
+/obj/item/clothing/suit/armor/vest/hazardvest
+	name = "security hazard vest"
+	desc = "A red armored high-visibility vest used by Security to look like a total traffic cop."
+	icon_state = "sechazard"
+	dog_fashion = null
+
+/obj/item/clothing/suit/armor/vest/hazardvest/worn_overlays(mutable_appearance/standing, isinhands, icon_file)
+	. = ..()
+	if(!isinhands)
+		. += emissive_appearance(icon_file, "[icon_state]-emissive", src, alpha = src.alpha)
+
 /obj/item/clothing/suit/armor/hos
 	name = "armored greatcoat"
 	desc = "A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence."
@@ -307,7 +318,7 @@
 
 /obj/item/clothing/suit/armor/vest/secjacket
 	name = "security hi-vis jacket"
-	desc = "A red jacket in red Security colors. It has hi-vis stripes all over it."
+	desc = "A jacket in red Security colors. It has hi-vis stripes all over it."
 	icon_state = "secjacket"
 	inhand_icon_state = "armor"
 	armor_type = /datum/armor/armor_secjacket

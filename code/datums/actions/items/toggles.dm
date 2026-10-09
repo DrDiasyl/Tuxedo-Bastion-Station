@@ -121,3 +121,6 @@
 
 /datum/action/item_action/toggle_virus_view
 	name = "Toggle Viral Analyzer"
+
+/datum/action/item_action/toggle_strobe_light
+	name = "Toggle Strobe Light"

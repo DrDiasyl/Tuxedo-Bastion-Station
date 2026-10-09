@@ -7,6 +7,7 @@
 	panel_type = "panel10"
 	req_access = list(ACCESS_ENGINE_EQUIP)
 	products = list(
+		/obj/item/clothing/accessory/strobe = 2,
 		/obj/item/clothing/under/rank/engineering/chief_engineer = 4,
 		/obj/item/clothing/under/rank/engineering/engineer = 4,
 		/obj/item/clothing/shoes/sneakers/orange = 4,

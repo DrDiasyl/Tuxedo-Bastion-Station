@@ -175,11 +175,6 @@
 	if(!isinhands)
 		. += emissive_appearance(icon_file, "[icon_state]-emissive", src, alpha = src.alpha)
 
-/obj/item/clothing/suit/hazardvest/press // Variant used by the Curator
-	name = "press hazard vest"
-	desc = "A blue high-visibility vest used to distinguish <i>non-combatant</i> \"PRESS\" members, like if anyone cares."
-	icon_state = "hazard_press"
-
 //Lawyer
 /obj/item/clothing/suit/toggle/lawyer
 	name = "blue suit jacket"
@@ -303,9 +298,6 @@
 	)
 	armor_type = /datum/armor/jacket_curator
 
-
-
-//Robotocist
 /datum/armor/jacket_curator
 	melee = 25
 	bullet = 10
@@ -313,6 +305,12 @@
 	energy = 35
 	acid = 45
 
+/obj/item/clothing/suit/hazardvest/press
+	name = "press hazard vest"
+	desc = "A blue high-visibility vest used to distinguish <i>non-combatant</i> \"PRESS\" members, like if anyone cares."
+	icon_state = "hazard_press"
+
+//Robotocist
 /obj/item/clothing/suit/hooded/techpriest
 	name = "techpriest robes"
 	desc = "For those who REALLY love their toasters."

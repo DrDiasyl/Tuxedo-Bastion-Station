@@ -34,7 +34,21 @@
 			"icon" = "mask",
 			"products" = list(
 				/obj/item/clothing/mask/balaclava = 6,
+				/obj/item/clothing/mask/gas/sechailer/half_mask = 6,
 			),
+		list(
+			"name" = "Accessories",
+			"icon" = "glasses",
+			"products" = list(
+				/obj/item/clothing/accessory/strobe = 3,
+				/obj/item/clothing/accessory/armband/deputy = 4,
+				/obj/item/clothing/accessory/armband/cargo = 2,
+				/obj/item/clothing/accessory/armband/engine = 2,
+				/obj/item/clothing/accessory/armband/medblue = 2,
+				/obj/item/clothing/accessory/armband/hydro = 2,
+				/obj/item/clothing/accessory/armband/science = 2,
+			),
+		),
 		),
 		list(
 			"name" = "Under",
@@ -48,12 +62,6 @@
 				/obj/item/clothing/under/rank/security/officer/blueshirt = 2,
 				/obj/item/clothing/under/rank/security/officer/formal = 3,
 				/obj/item/clothing/under/rank/security/utility = 3,
-				/obj/item/clothing/accessory/armband/deputy = 4,
-				/obj/item/clothing/accessory/armband/cargo = 2,
-				/obj/item/clothing/accessory/armband/engine = 2,
-				/obj/item/clothing/accessory/armband/medblue = 2,
-				/obj/item/clothing/accessory/armband/hydro = 2,
-				/obj/item/clothing/accessory/armband/science = 2,
 			),
 		),
 		list(
@@ -63,6 +71,7 @@
 				/obj/item/clothing/suit/hooded/wintercoat/security = 3,
 				/obj/item/clothing/suit/armor/vest/blueshirt = 2,
 				/obj/item/clothing/suit/armor/vest/secjacket = 3,
+				/obj/item/clothing/suit/armor/vest/hazardvest = 3,
 				/obj/item/clothing/suit/jacket/officer/blue = 3,
 				/obj/item/clothing/suit/armor/vest/buoyantrigvest = 3,
 			),
@@ -163,6 +172,7 @@
 	vend_reply = "Thank you for using the MediDrobe!"
 	products = list(
 		/obj/item/clothing/accessory/pocketprotector = 4,
+		/obj/item/clothing/accessory/strobe = 2,
 		/obj/item/storage/backpack/duffelbag/med = 4,
 		/obj/item/storage/backpack/medic = 4,
 		/obj/item/storage/backpack/satchel/med = 4,
