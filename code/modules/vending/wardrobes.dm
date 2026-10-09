@@ -34,8 +34,9 @@
 			"icon" = "mask",
 			"products" = list(
 				/obj/item/clothing/mask/balaclava = 6,
-				/obj/item/clothing/mask/gas/sechailer/half_mask = 6,
+				/obj/item/clothing/mask/gas/sechailer = 6,
 			),
+		),
 		list(
 			"name" = "Accessories",
 			"icon" = "glasses",
@@ -48,7 +49,6 @@
 				/obj/item/clothing/accessory/armband/hydro = 2,
 				/obj/item/clothing/accessory/armband/science = 2,
 			),
-		),
 		),
 		list(
 			"name" = "Under",

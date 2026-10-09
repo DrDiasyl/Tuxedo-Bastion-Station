@@ -169,7 +169,7 @@
 
 /obj/item/clothing/suit/armor/vest/hazardvest
 	name = "security hazard vest"
-	desc = "A red armored high-visibility vest used by Security to look like a total traffic cop."
+	desc = "A red armored high-visibility vest used to look like a total traffic cop."
 	icon_state = "sechazard"
 	dog_fashion = null
 
