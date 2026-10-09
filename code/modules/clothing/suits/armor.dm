@@ -306,7 +306,7 @@
 
 
 /obj/item/clothing/suit/armor/vest/secjacket
-	name = "security jacket"
+	name = "security hi-vis jacket"
 	desc = "A red jacket in red Security colors. It has hi-vis stripes all over it."
 	icon_state = "secjacket"
 	inhand_icon_state = "armor"
@@ -321,14 +321,14 @@
 		. += emissive_appearance(icon_file, "[icon_state]-emissive", src, alpha = src.alpha)
 
 /datum/armor/armor_secjacket //Gotta compensate those extra covered limbs
-	melee = 25
+	melee = 30
 	bullet = 25
-	laser = 25
-	energy = 35
-	bomb = 20
-	fire = 30
-	acid = 30
-	wound = 5
+	laser = 30
+	energy = 40
+	bomb = 25
+	fire = 35
+	acid = 50
+	wound = 10
 
 /obj/item/clothing/suit/armor/balloon_vest
 	name = "balloon vest"
